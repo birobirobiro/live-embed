@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Embed Live</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script src="main.js" type="module"></script>
+
+  <script src="https://embed.twitch.tv/embed/v1.js"></script>
+</head>
+
+<body>
+  <div class="flex bg-black w-screen justify-center items-center mx-auto p-10 h-screen gap-10">
+
+    <div id="twitch-embed"></div>
+
+    <div class="flex">
+      <iframe width="500" height="350" src="https://www.youtube.com/embed/live_stream?channel=UCNv7NsljvfcQ7-vKQlWDsLw"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+
+      <iframe src="https://chat.restream.io/embed?token=c3ae198b-65ff-4ec1-8fba-8e86c1740496" frameborder="0"
+        scrolling="no"></iframe>
+    </div>
+  </div>
+</body>
+
+</html>
